@@ -4,7 +4,24 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Favorite Song</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <h1 id="animatedTitle">🎵 My Favorite Song 🎵</h1>
+
+    <div class="video-container">
+        <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/kXYiU_JCYtU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
